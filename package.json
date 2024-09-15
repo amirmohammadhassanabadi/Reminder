@@ -1,7 +1,7 @@
 {
   "name": "reminder-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is reminder app for checking the expiration of subscriptions",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
