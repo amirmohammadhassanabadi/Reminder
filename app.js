@@ -7,6 +7,9 @@ const mongoose = require("mongoose");
 const Port = process.env.PORT || 4000;
 const Database_url = process.env.DATABASE_URL || "mongodb://127.0.0.1:27017/reminder";
 
+// View Engine
+app.set("view engine", "ejs");
+
 // Creating App
 const app = express();
 
