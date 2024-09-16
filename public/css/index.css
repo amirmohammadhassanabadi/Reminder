@@ -1,0 +1,24 @@
+body{
+    background-color: var(--dark-bg);
+    margin: 0;
+    padding: 0;
+}
+
+.btn-wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn-wrapper > button{
+    padding: 1.3rem 7.5rem;
+    color: var(--white);
+    background-color: var(--light-purple);
+    border: 0;
+    border-radius: .3rem;
+    transition: var(--trans);
+}
+
+.btn-wrapper > button:hover{
+    background-color: var(--dark-purple);
+}

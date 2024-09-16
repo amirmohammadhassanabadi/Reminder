@@ -1,0 +1,9 @@
+:root{
+    --dark-bg: #191919;
+    --light-purple: #BB86FC;
+    --dark-purple: #3700B3;
+    --light-green: #0ADBC7;
+    --white: #fff;
+    /* Transition */
+    --trans: all .3s ease;
+}
